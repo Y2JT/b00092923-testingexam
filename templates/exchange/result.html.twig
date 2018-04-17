@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Quote - results page{% endblock %}
+
+{% block body %}
+    <h1>Result of processing your money exchange submission</h1>
+
+    <p>
+        &euro; {{ amount }} = {{ currency }} {{ newAmount }}
+        <br>
+        commission charge = &euro; {{ commission }}
+    </p>
+
+    <hr>
+    <a href="{{ url('homepage') }}">home</a>
+
+{% endblock %}

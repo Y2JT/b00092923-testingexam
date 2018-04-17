@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="App\Tests\Controller\DefaultControllerTest">App\Tests\Controller\DefaultController</h2>
+        <ul>
+            <li style="color: #555753;">✓ Home page has link to exchange page</li>
+        </ul>
+        <h2 id="App\Tests\Controller\ExchangeControllerTest">App\Tests\Controller\ExchangeController</h2>
+        <ul>
+            <li style="color: #555753;">✓ Homepage status okay</li>
+            <li style="color: #555753;">✓ Form submits with valid data</li>
+            <li style="color: #555753;">✓ Form submits with valid data and see correct result</li>
+            <li style="color: #555753;">✓ Form submits with valid data with correct commission</li>
+            <li style="color: #555753;">✓ Form submits with valid data with correct new currency amount</li>
+            <li style="color: #555753;">✓ Form submits with invalid data</li>
+        </ul>
+        <h2 id="App\Util\Test\ExchangeTest">App\Util\Test\Exchange</h2>
+        <ul>
+            <li style="color: #555753;">✓ Valid currency sterling</li>
+            <li style="color: #555753;">✓ Valid currency dollar</li>
+            <li style="color: #555753;">✓ I n v a l i d currency punt</li>
+            <li style="color: #555753;">✓ I n v a l i d currency random string</li>
+            <li style="color: #555753;">✓ Minimum commission one</li>
+            <li style="color: #555753;">✓ Minimum commission fifty</li>
+            <li style="color: #555753;">✓ Minimum commission max threshold</li>
+            <li style="color: #555753;">✓ Percentage commission one hundred min threshold</li>
+            <li style="color: #555753;">✓ Percentage commission two hundred</li>
+            <li style="color: #555753;">✓ Percentage commission three hundred</li>
+            <li style="color: #555753;">✓ Exchange too little exception</li>
+            <li style="color: #555753;">✓ Exchange too little max threshold exception</li>
+            <li style="color: #555753;">✓ Exchange min threshold</li>
+            <li style="color: #555753;">✓ Exchange dollars ten</li>
+            <li style="color: #555753;">✓ Exchange dollars fifty</li>
+            <li style="color: #555753;">✓ Exchange sterling eleven</li>
+            <li style="color: #555753;">✓ Exchange sterling twenty two</li>
+            <li style="color: #555753;">✓ Invalid currency exception</li>
+            <li style="color: #555753;">✓ Currency provider </li>
+        </ul>
+    </body>
+</html>

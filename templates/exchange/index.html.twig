@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Quote - main page{% endblock %}
+
+{% block body %}
+<h1>Currency Exchange Form</h1>
+
+    <form method="post" action="{{ url('exchange_process') }}" id="exchange_form">
+        <p>
+            Amount in Euro
+            <input type="text" name="amount" >
+        </p>
+        <p>
+            Currency to change into
+            <input type="text" name="currency">
+        </p>
+
+        <p>
+            <input type="submit" name="exchange_submit">
+        </p>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}home page{% endblock %}
+
+{% block body %}
+
+    <h1>Welcome to the test website</h1>
+
+    <p>
+        Turn old money into new money :-)
+    </p>
+
+    <p>
+        <a href="{{ url('exchange_home') }}">exchange</a> some money today!
+    </p>
+
+{% endblock %}

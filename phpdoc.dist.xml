@@ -1,0 +1,16 @@
+<phpdoc>
+    <parser>
+        <target>./docs</target>
+    </parser>
+    <transformer>
+        <target>./docs</target>
+    </transformer>
+    <files>
+        <directory>./src/Controller</directory>
+        <directory>./src/Util</directory>
+        <directory>./src/Entity</directory>
+    </files>
+    <transformations>
+        <template name="responsive-twig"/>
+    </transformations>
+</phpdoc>

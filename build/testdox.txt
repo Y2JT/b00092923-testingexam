@@ -1,0 +1,32 @@
+App\Tests\Controller\DefaultController
+ [x] Home page has link to exchange page
+
+App\Tests\Controller\ExchangeController
+ [x] Homepage status okay
+ [x] Form submits with valid data
+ [x] Form submits with valid data and see correct result
+ [x] Form submits with valid data with correct commission
+ [x] Form submits with valid data with correct new currency amount
+ [x] Form submits with invalid data
+
+App\Util\Test\Exchange
+ [x] Valid currency sterling
+ [x] Valid currency dollar
+ [x] I n v a l i d currency punt
+ [x] I n v a l i d currency random string
+ [x] Minimum commission one
+ [x] Minimum commission fifty
+ [x] Minimum commission max threshold
+ [x] Percentage commission one hundred min threshold
+ [x] Percentage commission two hundred
+ [x] Percentage commission three hundred
+ [x] Exchange too little exception
+ [x] Exchange too little max threshold exception
+ [x] Exchange min threshold
+ [x] Exchange dollars ten
+ [x] Exchange dollars fifty
+ [x] Exchange sterling eleven
+ [x] Exchange sterling twenty two
+ [x] Invalid currency exception
+ [x] Currency provider 
+
